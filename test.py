@@ -12,7 +12,8 @@ class Person:
 
 # Creating an instance of Person
 p = Person("Alice", 30)
-
+print(p.name)
+print(p)
 # Printing the instance
-print(p)  # Output: <__main__.Person object at 0x7f9d9d6f4a90>
+ # Output: <__main__.Person object at 0x7f9d9d6f4a90>
 
