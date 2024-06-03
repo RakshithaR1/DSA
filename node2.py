@@ -16,7 +16,6 @@ class Node:
       
 a=Node("srini")
 a.add_node(a,"hari")
-a.add_node(a,'trert')
 current = a
 while current:
   print(current.data)
