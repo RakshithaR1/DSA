@@ -31,6 +31,6 @@ class choice:
 class display:
   def __init__(self):
     c=choice()
-    print(f"{c.a}{c.sign}{c.b}={c.fin}")
+    print(f"The result of the numbers {c.fin}")
   
 d=display()
