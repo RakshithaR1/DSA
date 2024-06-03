@@ -24,6 +24,6 @@ class choice:
 class display:
   def __init__(self):
     c=choice()
-    print(f"The result of the numbers {c.fin}")
+    print(f"The result of the numbers {str(c.fin)}")
   
 d=display()
