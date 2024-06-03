@@ -17,9 +17,9 @@ class choice:
   def __init__(self):
     sign=input("Enter the operation to be performed (+ or -): ")
     if sign == "+" :
-      self.fin=add()
+      self.fin=str(add())
     elif sign == "-":
-      self.fin=subtracti()
+      self.fin=str(subtracti())
   
 class display:
   def __init__(self):
