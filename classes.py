@@ -6,12 +6,12 @@ class input_no:
 class add:
   def __init__(self):
     x=input_no()
-    self.sum= x.a+x.b
-
+    self.sum= str(x.a+x.b)
+   
 class subtracti:
   def __init__(self):
     x=input_no()
-    self.sum= x.a-x.b
+    self.sum= str(x.a-x.b)
 
 class choice:
   def __init__(self):
