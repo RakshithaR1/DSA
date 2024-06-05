@@ -7,7 +7,6 @@ class add:
   def __init__(self):
     x=input_no()
     self.sum= x.a+x.b
-    
   def __str__(self):
     return str(self.sum)
    
@@ -29,6 +28,6 @@ class choice:
 class display:
   def __init__(self):
     c=choice()
-    print(f"The result of the numbers {c.fin}")
+    print(f"The result of the operations: {c.fin}")
   
 d=display()

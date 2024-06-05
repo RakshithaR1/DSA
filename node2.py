@@ -15,11 +15,13 @@ class Node:
       
       
 a=Node("srini")
-a.add_node(a,"hari")
+a.delete_node("srini")
+
 current = a
 while current:
   print(current.data)
   current=current.next
+
       
     
     
