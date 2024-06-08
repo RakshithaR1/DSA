@@ -4,7 +4,7 @@ def get_two_numbers():
     return a,b
 
 def add_two_numbers(a,b):
-    pass
+    return a+b
 
 def show_results(a,b,sum):
    print(f"{a}+{b}={sum}")
