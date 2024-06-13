@@ -1,2 +1,2 @@
 
-l.display()
+    def print(self):

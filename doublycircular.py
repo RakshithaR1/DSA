@@ -22,8 +22,11 @@ class doublyCircular:
             new_node.prev  = curr
             self.head.prev=new_node
               
-    def print(self):
+    def print_li(self):
         curr = self.head
+        if not curr:
+            print("The list is empty")
+            return
         while curr.next !=self.head:
             print(curr.data)
             curr  = curr.next
@@ -63,9 +66,5 @@ class doublyCircular:
             curr.prev.next = curr.next 
 
 dll = doublyCircular()
-dll.append(1)
-dll.append(2)
-dll.append(3)
-dll.append(4)
 dll.delete(1)
-dll.print()
+dll.print_li()
