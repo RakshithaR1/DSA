@@ -29,7 +29,7 @@ class linkedlist:
       else:
         curr = head
         while curr:
-          if curr.next.data==value:
+          if curr.next.value==value:
             curr.next = curr.next.next
             break
           if not curr.next:
