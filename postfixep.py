@@ -41,7 +41,7 @@ class postfix:
                     res.next=self.head.next.next
                     self.head = res
                 else:
-                    print(f"{i} is an invalid operation sign and has be skipped.")
+                    print(f"{i} is an invalid operation sign and has been skipped.")
     def output(self):
         print(f"The result of the expression {self.expression} = {self.head.data}")
 p = postfix()
