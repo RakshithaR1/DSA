@@ -17,28 +17,29 @@ class linkedlist:
       current.next = self.val
       
   def delete(self,value):
-    to_del = node(value)
-    current = self.top
-    while current:
-        if current.next.value == to_del.value:
-          
-          if current.next.next == None:
-              current.next = None
-              return 
-          current.next = current.next.next
-          print("Node is removed from the list")
-          current = current.next  
-        if current.next is None:
-         return
-     
-        
-      
+    if not self.top:
+      print("The list is empty")
+    else:
+      head = self.top
+      if head.value == value:
+        if head.next==None:
+          head=None
+        else:
+          head=head.next
+      else:
+        curr = head
+        while curr:
+          if curr.next.data==value:
+            curr.next = curr.next.next
+            break
+          if not curr.next:
+            return 
+          curr=curr.next
   def display(self):
     current = self.top
     while current:
-      print(current.value,end= "->")
+      print(current.value,end= " ")
       current = current.next
-    print("None") 
   
 l = linkedlist()
 l.insert(8)
