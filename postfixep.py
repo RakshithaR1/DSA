@@ -17,7 +17,7 @@ class postfix:
                     new_node.next=self.head
                     self.head=new_node
             else:
-                if not self.head and self.head.next:
+                if self.head == None or self.head.next == None:
                     print("No enough digits to calculate yet.")
                     continue
                 if i == '+':
