@@ -27,8 +27,8 @@ class stacks:
             print(curr.data,end= " ")
             curr = curr.next
 s = stacks()
-# s.append(3)
-# s.append(2)
-# s.append(1)
+s.append(3)
+s.append(2)
+s.append(1)
 s.delete()
 s.print_li()
